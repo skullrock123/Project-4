@@ -1,0 +1,80 @@
+
+
+maindiv{
+    
+margin-left: 35%;
+border:2px solid black;
+width: 500px;
+margin-top: 10%;
+background-color: rgb(227, 36, 36);
+opacity: 80%;
+display: flex;
+justify-content: center;
+
+
+
+
+}
+h1{
+    padding-left: 140px;
+    size: 100px;
+    color: antiquewhite;
+}
+.box{
+    margin-left: 15px;
+    border: solid;
+    width:300px;
+    height: 30px;
+}
+.addbutton{
+background-color: blue;
+color: rgb(239, 238, 236);
+border-radius: 2px;
+border: solid;
+border-color: black;
+height: 37px;
+width: 50px;
+
+}
+.box:hover{
+    border-color: blueviolet;
+}
+.addbutton:hover{
+    background-color: rgba(47, 99, 189, 0.758);
+}
+
+.deletebutton{
+    background-color: blue;
+    color: rgb(239, 238, 236);
+    border-radius: 2px;
+    border: solid;
+    border-color: black;
+    }
+    .deletebutton:hover{
+        background-color: rgba(47, 99, 189, 0.758);
+    }
+    body{
+        background-image: url('/src/Images/wallpapertodo.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    
+    }
+    .box::placeholder{
+        font-size: medium;
+    }
+    li{
+        font-size: larger;
+        color: white;
+    }
+
+    .div1{
+        margin-left: 40%;
+    }
+    .div2{
+        margin-left: 42%;
+    }
+    .divlist{
+        margin-left: 45%;;
+    }
